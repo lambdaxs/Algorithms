@@ -8,9 +8,5 @@
 
 import Foundation
 
-//二分查找
-//let myList = [1,2,3,5,7,9,120]
-//println(binarySearch(myList, 120))
-
 
 
