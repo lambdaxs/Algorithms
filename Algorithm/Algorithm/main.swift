@@ -8,5 +8,7 @@
 
 import Foundation
 
-
-
+let a = [1,5,2,9,4,3]
+//reMergeSort(a, 0, a.count-1)
+//println(merge(a, 0, 6))
+println(mergeSort([1,2,3], [4,5,6]))

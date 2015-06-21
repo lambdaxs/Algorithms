@@ -8,24 +8,38 @@
 
 import Foundation
 
-
-//while循环中每次j的值为找出的较小值该插入位置的索引
-func insertSrot(var list:[Int]) -> [Int] {
-    var i:Int
-    var j:Int
-    var temp:Int
-    
-    for (i = 1; i<list.count; i++) {
-        temp = list[i]
-        j = i - 1
-        //若前面大于后面将小的放在前面，若前面小于后面不变
-        //每次比较的时候，选取合适的地方插入最小的
-        while(j>=0 && temp<list[j]) {
+func insertSort(var list:[Int]) -> [Int] {
+    for (var i=1; i<list.count; i++) {
+        var key = list[i]
+        var j = i - 1
+        //每次将选取的数与左边所有数比较，直到找到合适的位置索引j+1,原位置的数顺次向后移动一位
+        while(j >= 0 && list[j]>key) {
             list[j+1] = list[j]
-            j--
+            j = j - 1
         }
-        list[j+1] = temp
+        //找到的合适位置为j+1,将该数插入到该位置
+        list[j+1] = key
     }
     
     return list
 }
+
+func insertSortDown(var list:[Int]) -> [Int] {
+    for (var i=1; i<list.count; i++) {
+        var key = list[i]
+        var j = i - 1
+        //每次将选取的数与左边所有数比较，直到找到合适的位置索引j+1,原位置的数顺次向后移动一位
+        while(j >= 0 && list[j]<key) {
+            list[j+1] = list[j]
+            j = j - 1
+        }
+        //找到的合适位置为j+1,将该数插入到该位置
+        list[j+1] = key
+    }
+    
+    return list
+}
+
+
+
+

@@ -13,6 +13,8 @@
 		30AAA3D11B31A4C7008A8395 /* SelectSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AAA3D01B31A4C7008A8395 /* SelectSort.swift */; };
 		30AAA3D31B31AFFF008A8395 /* InsertSrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AAA3D21B31AFFF008A8395 /* InsertSrot.swift */; };
 		30AAA3D51B31B437008A8395 /* ShellSrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AAA3D41B31B437008A8395 /* ShellSrot.swift */; };
+		30AAA3D71B32F120008A8395 /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AAA3D61B32F120008A8395 /* Tower.swift */; };
+		30AAA3D91B330C0A008A8395 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AAA3D81B330C0A008A8395 /* MergeSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +38,8 @@
 		30AAA3D01B31A4C7008A8395 /* SelectSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSort.swift; sourceTree = "<group>"; };
 		30AAA3D21B31AFFF008A8395 /* InsertSrot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertSrot.swift; sourceTree = "<group>"; };
 		30AAA3D41B31B437008A8395 /* ShellSrot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellSrot.swift; sourceTree = "<group>"; };
+		30AAA3D61B32F120008A8395 /* Tower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tower.swift; sourceTree = "<group>"; };
+		30AAA3D81B330C0A008A8395 /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				30AAA3D01B31A4C7008A8395 /* SelectSort.swift */,
 				30AAA3D21B31AFFF008A8395 /* InsertSrot.swift */,
 				30AAA3D41B31B437008A8395 /* ShellSrot.swift */,
+				30AAA3D61B32F120008A8395 /* Tower.swift */,
+				30AAA3D81B330C0A008A8395 /* MergeSort.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			files = (
 				3066FCF61B3072DD008EF9F4 /* TreeNode.swift in Sources */,
 				3066FCF31B306771008EF9F4 /* BinarySearch.swift in Sources */,
+				30AAA3D91B330C0A008A8395 /* MergeSort.swift in Sources */,
 				30AAA3D51B31B437008A8395 /* ShellSrot.swift in Sources */,
+				30AAA3D71B32F120008A8395 /* Tower.swift in Sources */,
 				3066FCEC1B3021CA008EF9F4 /* main.swift in Sources */,
 				30AAA3D11B31A4C7008A8395 /* SelectSort.swift in Sources */,
 				30AAA3D31B31AFFF008A8395 /* InsertSrot.swift in Sources */,
